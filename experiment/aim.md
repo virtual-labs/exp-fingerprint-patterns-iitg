@@ -1,1 +1,1 @@
-### Aim of the experiment
+### Identification of finger prints patterns
