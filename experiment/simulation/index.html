@@ -7,7 +7,7 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <style type="text/css">
 	
-	#div1 {width:30px;height:70px;border:1px solid #aaaaaa; margin-left: 7.5%; margin-top: 14%; float: left; position:static;}
+	#div1 {width:30px;height:70px; margin-left: 7.5%; margin-top: 550px; float: left; position:static;}
     
   
     #mainimg{
@@ -22,10 +22,10 @@
     body{
     	height: 100%;
     }
-    .fdiv{
-        margin-top: 22%;
-        margin-left: 30%;
-    }
+   // .fdiv{
+   //     margin-top: 22%;
+   //     margin-left: 30%;
+   // }
 
     .sdiv{
         position: fixed;
@@ -398,17 +398,31 @@ function checkresult()
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
 <div class="uprow" id="demo">
-<div class="d1" onmouseover="check();" onmouseout="check1();" style="cursor:pointer;"></div>
-<div class="d2" onmouseover="check2();" onmouseout="check3();" style="cursor:pointer;"></div>
-<div class="d3" onmouseover="check4();" onmouseout="check5();" style="cursor:pointer;"></div>
-<div class="d4" onmouseover="check6();" onmouseout="check7();" style="cursor:pointer;"></div>
-<div class="d5" onmouseover="check8();" onmouseout="check9();" style="cursor:pointer;"></div>
-<div class="d6" onmouseover="check10();" onmouseout="check11();" style="cursor:pointer;"></div>
+	<div class="d1" onmouseover="check();" onmouseout="check1();" style="cursor:pointer;"></div>
+	<div class="d2" onmouseover="check2();" onmouseout="check3();" style="cursor:pointer;"></div>
+	<div class="d3" onmouseover="check4();" onmouseout="check5();" style="cursor:pointer;"></div>
+	<div class="d4" onmouseover="check6();" onmouseout="check7();" style="cursor:pointer;"></div>
+	<div class="d5" onmouseover="check8();" onmouseout="check9();" style="cursor:pointer;"></div>
+	<div class="d6" onmouseover="check10();" onmouseout="check11();" style="cursor:pointer;"></div>
     <div class="d7" onmouseover="check12();" onmouseout="check13();" style="cursor:pointer;"></div> 
     <div class="d8" onmouseover="check14();" onmouseout="check15();" style="cursor:pointer;"></div>
     <div class="d9" onmouseover="check16();" onmouseout="check17();" style="cursor:pointer;"></div>
     <div class="d10" onmouseover="check18();" onmouseout="check19();" style="cursor:pointer;"></div>
-
+	
+	<div class="fdiv" style="margin-left: 611px;  margin-top: 315px;">
+		<select name="mainval" id="mainval" style="width: 110px; height: 28px;">
+		  <option value="Mongoloid">Mongoloid</option>
+		  <option value="Caucasoid">Caucasoid</option>
+		  <option value="Negroid">Negroid</option>
+		</select>
+		<!--<input type="text" name="mainval" id="mainval" > -->
+	</div>
+	
+	<div style=" margin-left: 136px; float: left; margin-top: 59px;"><input type="text" name="fname" id="w" style="width: 60px; height: 28px;"></div>
+	<div style=" margin-left: 41px; float: left; margin-top: 59px;"><input type="text" name="sname" id="l" style="width: 60px; height: 28px;"></div>
+	<div style=" margin-left: 60px; float: left; margin-top: 59px;"><input type="text" name="lname" id="a" style="width: 60px; height: 28px;"></div>
+	<div style=" margin-left: 515px; margin-top: 110px;"><input type="submit" value="Submit" " onclick="checkresult();"></div>
+	
 </div>
 
 <!--<div class="downrow">
@@ -417,14 +431,14 @@ function checkresult()
 </div>-->
 
 <div class="ddiv" id="ddiv"></div>
-<div class="fdiv">
-<input type="text" name="mainval" id="mainval" style="height: 25px;">
+
+
+<div class="sdiv" >
+
+  
+
 </div>
 
-<div class="sdiv">
-<input type="text" name="fname" id="w" style="width: 60px; height: 28px;"><input type="text" name="sname" id="l" style="width: 60px; height: 28px; margin-left: 50px;"><input type="text" name="lname" id="a" style="width: 60px; height: 28px; margin-left: 50px;">  <input type="submit" value="Submit" style="margin-left: 80%;" onclick="checkresult();">
-
-</div>
 
 </div>
 
