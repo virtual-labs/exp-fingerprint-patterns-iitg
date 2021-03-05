@@ -89,23 +89,36 @@
 
 
      const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1.What is Dermatoglyphics?:", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "is the study of the ridge patterns of the skin of the fingers, palms, toes and soles", ///// Write the option 1 inside double quotes
+                b: "is the study of the hairs and sebaceous (oil) glands", ///// Write the option 2 inside double quotes
+                c: "is the study of palmar and planter",
+                d: "none of above",
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
     {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
+      question: " How to calculate Pattern Intensity Index on the basis of frequency distribution?",  ///// Write the question inside double quotes
       answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
+        a: "Whorls x 100/loops",                  ///// Write the option 1 inside double quotes
+        b: "Arches x 100/Whorls",                  ///// Write the option 2 inside double quotes
+        c: "2 x Whorls + Loops/n",  
+        d: "2xwhorls x 100/loops",      
+      },
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
-
+{
+      question: "In which type of population arches appears in very small numbers?",  ///// Write the question inside double quotes
+      answers: {
+        a: "Caucasoid",                  ///// Write the option 1 inside double quotes
+        b: "Mongoloid",                  ///// Write the option 2 inside double quotes
+        c: "Negroid",  
+        d: "None of above",      
+      },
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
+    },
 
 
      ];
