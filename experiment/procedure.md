@@ -1,4 +1,3 @@
-#### Procedure
 
 Finger patterns exhibit racial variation as shown in the table below:
 
