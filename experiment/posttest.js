@@ -100,7 +100,7 @@
         },
 
     {
-      question: "The __________ are more concerned in establishing variations in respect of traits among different human populations.",  ///// Write the question inside double quotes
+      question: "2.The __________ are more concerned in establishing variations in respect of traits among different human populations.",  ///// Write the question inside double quotes
       answers: {
         a: "Anthropologist",                  ///// Write the option 1 inside double quotes
         b: "Archeologist",                  ///// Write the option 2 inside double quotes
