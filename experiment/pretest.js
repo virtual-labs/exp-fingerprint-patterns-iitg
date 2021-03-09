@@ -100,7 +100,7 @@
         },
 
     {
-      question: " How to calculate Pattern Intensity Index on the basis of frequency distribution?",  ///// Write the question inside double quotes
+      question: "2.How to calculate Pattern Intensity Index on the basis of frequency distribution?",  ///// Write the question inside double quotes
       answers: {
         a: "Whorls x 100/loops",                  ///// Write the option 1 inside double quotes
         b: "Arches x 100/Whorls",                  ///// Write the option 2 inside double quotes
@@ -110,7 +110,7 @@
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
 {
-      question: "In which type of population arches appears in very small numbers?",  ///// Write the question inside double quotes
+      question: "3.In which type of population arches appears in very small numbers?",  ///// Write the question inside double quotes
       answers: {
         a: "Caucasoid",                  ///// Write the option 1 inside double quotes
         b: "Mongoloid",                  ///// Write the option 2 inside double quotes
