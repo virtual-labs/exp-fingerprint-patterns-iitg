@@ -1,0 +1,465 @@
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<style type="text/css">
+	
+	#div1 {width:30px;height:70px; margin-left: 7.5%; margin-top: 550px; float: left; position:static;}
+    
+  
+    #mainimg{
+    	background-image: url("image/mainimg.png");
+    	background-repeat: no-repeat;
+        height: 900px;
+        float: left;
+        width: 100%;
+        position: relative;
+        
+    }
+    body{
+    	height: 100%;
+    }
+   // .fdiv{
+   //     margin-top: 22%;
+   //     margin-left: 30%;
+   // }
+
+    .sdiv{
+        position: fixed;
+        margin-top: 3.5%;
+        margin-left: 6.5%;
+
+    }
+
+    .mainimg
+    {
+        
+        width: 50%;
+        margin-top: 6%;
+        margin-right: 3%;
+        
+    }
+
+    #drag2 {
+    float: left;    
+    visibility: hidden;
+    over-flow: hidden;
+    /*width: 0px;
+    height: 0px;*/
+}
+
+.d1{
+    
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.d2{
+    
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    float: left;
+}
+.d3{
+    
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    float: left;
+}
+.d4{
+    
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    float: left;
+}
+.d5{
+    
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    float: left;
+}
+.d6{
+    
+    width: 70px;
+    height: 70px;
+    margin-left: 6px;
+    float: left;
+    margin-top: 24%;
+}
+.d7{
+    
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 24%;
+}
+.d8{
+   
+    width:70px;
+    height:70px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 24%;
+}
+
+.d9{
+    
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 24%;
+}
+.d10{
+    
+    width:70px;
+    height:70px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 24%;
+}
+.ddiv{
+     
+    width: 250px;
+    height: 230px;
+    margin-left: 2.5%;
+    float: left; 
+    margin-top: 6%;
+}
+.uprow{
+
+    
+    width: 450px;
+    height: 350px;
+    margin-top: 80px;
+    margin-left: -7%;
+    float: left;
+    
+}
+.downrow{
+   
+   width: 450px;
+   height: 100px;
+   margin-top: 80px;
+   margin-left: -130px;
+   float: left;
+}
+
+</style>
+
+<script>
+function allowDrop(ev)
+{
+ev.preventDefault();
+}
+
+function drag(ev)
+{
+ev.dataTransfer.setData("Text",ev.target.id);
+}
+
+function drop(ev)
+{
+ev.preventDefault();
+var data=ev.dataTransfer.getData("Text");
+ev.target.appendChild(document.getElementById(data));
+}
+
+function change()
+{
+    
+    var x = document.getElementById("mainval").value;
+
+    if(x=="RrYY")
+    {  
+
+     //location.href = "index.html";
+     //window.location("index.html");
+     //alert("hello");
+     window.location.href='index1.html';
+    //document.getElementById('drag1').style.display='none';
+    
+    //document.getElementById("drag2").style.visibility = "visible";
+
+    
+    }
+    else
+    {
+
+        alert("enter a correct value");
+    }    
+}
+
+function check()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "url(image/f1.png)";
+
+}
+
+function check1()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "";
+
+}
+
+function check2()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "url(image/f2.png)";
+
+}
+
+function check3()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "";
+
+}
+
+function check4()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "url(image/f3.png)";
+
+}
+
+function check5()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "";
+
+}
+
+function check6()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "url(image/f4.png)";
+
+}
+
+function check7()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "";
+
+}
+
+function check8()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "url(image/f5.png)";
+
+}
+
+function check9()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "";
+
+}
+
+function check10()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "url(image/f6.png)";
+
+}
+
+function check11()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "";
+
+}
+
+function check12()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "url(image/f7.png)";
+
+}
+
+function check13()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "";
+
+}
+
+function check14()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "url(image/f8.png)";
+
+}
+
+function check15()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "";
+
+}
+
+function check16()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "url(image/f9.png)";
+
+}
+
+function check17()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "";
+
+}
+
+function check18()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "url(image/f10.png)";
+
+}
+
+function check19()
+{
+    //alert("hi");
+
+    document.getElementById("ddiv").style.backgroundImage = "";
+
+}
+
+function checkresult()
+{
+    var a = document.getElementById("w").value;
+    var b = document.getElementById("l").value;
+    var c = document.getElementById("a").value;
+    var d = document.getElementById("mainval").value;
+
+    if((a>=40) && (a<=50) && (b>=50) && (a<=60) && (c>=1) && (c<=2) && (d=="Mongoloid"))
+    {
+
+        alert("Correct");
+    }
+    else if((a>=20) && (a<=30) && (b>=60) && (a<=70) && (c>=4) && (c<=7) && (d=="Caucasoid"))
+    {
+        alert("Correct");
+    }
+    else if((a==30) && (b>=50) && (a<=60) && (c>=6) && (c<=7) && (d=="Negroid"))
+    {
+        alert("Correct");
+    }
+
+    else
+    {
+        alert("Wrong");
+    }
+}
+
+</script>
+
+</head>
+
+<body >
+
+
+<div id="mainimg" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div class="uprow" id="demo">
+	<div class="d1" onmouseover="check();" onmouseout="check1();" style="cursor:pointer;"></div>
+	<div class="d2" onmouseover="check2();" onmouseout="check3();" style="cursor:pointer;"></div>
+	<div class="d3" onmouseover="check4();" onmouseout="check5();" style="cursor:pointer;"></div>
+	<div class="d4" onmouseover="check6();" onmouseout="check7();" style="cursor:pointer;"></div>
+	<div class="d5" onmouseover="check8();" onmouseout="check9();" style="cursor:pointer;"></div>
+	<div class="d6" onmouseover="check10();" onmouseout="check11();" style="cursor:pointer;"></div>
+    <div class="d7" onmouseover="check12();" onmouseout="check13();" style="cursor:pointer;"></div> 
+    <div class="d8" onmouseover="check14();" onmouseout="check15();" style="cursor:pointer;"></div>
+    <div class="d9" onmouseover="check16();" onmouseout="check17();" style="cursor:pointer;"></div>
+    <div class="d10" onmouseover="check18();" onmouseout="check19();" style="cursor:pointer;"></div>
+	
+	<div class="fdiv" style="margin-left: 611px;  margin-top: 315px;">
+		<select name="mainval" id="mainval" style="width: 110px; height: 28px;">
+		  <option value="Mongoloid">Mongoloid</option>
+		  <option value="Caucasoid">Caucasoid</option>
+		  <option value="Negroid">Negroid</option>
+		</select>
+		<!--<input type="text" name="mainval" id="mainval" > -->
+	</div>
+	
+	<div style=" margin-left: 136px; float: left; margin-top: 59px;"><input type="text" name="fname" id="w" style="width: 60px; height: 28px;"></div>
+	<div style=" margin-left: 41px; float: left; margin-top: 59px;"><input type="text" name="sname" id="l" style="width: 60px; height: 28px;"></div>
+	<div style=" margin-left: 60px; float: left; margin-top: 59px;"><input type="text" name="lname" id="a" style="width: 60px; height: 28px;"></div>
+	<div style=" margin-left: 515px; margin-top: 110px;"><input type="submit" value="Submit" " onclick="checkresult();"></div>
+	
+</div>
+
+<!--<div class="downrow">
+    
+
+</div>-->
+
+<div class="ddiv" id="ddiv"></div>
+
+
+<div class="sdiv" >
+
+  
+
+</div>
+
+
+</div>
+
+
+
+
+<div id="divmm">
+
+
+
+</div>
+<!--<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<img id="drag1" src="demo.jpg" draggable="true"
+ondragstart="drag(event)" width="336" height="69">
+
+
+<div id="div2" ondrop="drop(event)"
+ondragover="allowDrop(event)"></div>
+<img id="drag1" src="shape1.jpg" draggable="true"
+ondragstart="drag(event)" width="336" height="69">-->
+
+<script src="../assets/js/iframeResize.js"></script></body>
+
+</html>
