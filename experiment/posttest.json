@@ -1,0 +1,19 @@
+[{
+	"question": "1.What is the percentage of whorls in Caucasoid?",
+	"answers": {
+		"a": "30 to 40",
+		"b": "40 to 50",
+		"c": "10 to 20",
+		"d": "20 to 30"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "2.The __________ are more concerned in establishing variations in respect of traits among different human populations.",
+	"answers": {
+		"a": "Anthropologist",
+		"b": "Archeologist",
+		"c": "Dermatologist",
+		"d": "Geographical Statistician"
+	},
+	"correctAnswer": "a"
+}]
